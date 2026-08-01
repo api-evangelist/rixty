@@ -1,4 +1,16 @@
 aid: rixty
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rixty.png
 name: Rixty
 description: Rixty is a company surfaced as a portfolio company of uncork-capital and added to the API
   Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,12 +23,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-status: defunct
+x-status-note: 'rixty.com returns HTTP 301 to https://gold.razer.com/ (Razer Gold);
+  Rixty was folded into Razer Gold. No developer/api/docs subdomains resolve and no
+  standalone API surface exists (probed 2026-07-21).'
 tags:
 - Company
+- Payments
+- Gift Cards
+- Prepaid
+- Gaming
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
